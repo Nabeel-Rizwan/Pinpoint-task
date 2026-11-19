@@ -114,6 +114,28 @@ Official directories / practice statement       Reviewed official-source file
 - **Standard-library stack** keeps data models, ingestion, SQLite, the CLI, and the server inspectable and portable. The dashboard uses HTML, CSS, and JavaScript with no build step. The bundled local server is intended for reviewer use on loopback. Shared team deployment needs an authenticated production service and TLS.
 - **Minimal professional data** supports the workflow with name, firm, public title, practice, office, and official profile. The source-backed directory adapters avoid storing phone and email by default. Direct crawler requests use an identifiable user agent, per-host spacing, bounded response sizes and retries, and a fresh or explicitly revalidated successful response. An unreachable robots policy stops the crawl. Exports constrain profile URLs and neutralize spreadsheet formula prefixes.
 
+## Alternatives considered, scope, and what I'd change first
+
+### Alternatives considered and rejected
+
+- **A scraping framework instead of the standard library.** I kept the stack dependency-free rather than adopting Scrapy or requests with BeautifulSoup. Most of these firms publish structured sources — JSON search APIs, sitemaps, filtered directories — so a general-purpose HTML scraping toolkit buys little here, and a zero-install checkout is the easiest thing for a reviewer to run. The cost is hand-written HTTP and HTML handling; `httppolite` and the small `dom` parser cover what the adapters need.
+- **A database service and a job queue instead of one SQLite file.** A single-writer SQLite database with one publication transaction fits fifteen firms and would still fit fifty, with no operations to run. A separate database server plus an ingestion queue would add deployment and failure modes to a small, single-writer system. This is the first thing a team rollout would revisit.
+- **One generic scraper instead of per-firm adapters.** Each source differs enough — ids and filters, a sitemap, bespoke markup, a published absence statement — that a single generic crawler would either over-fetch or misread membership. Keeping one explicit, validated rule per firm makes membership explainable, and the shared `json_api` adapter keeps the common shape a config change rather than new code.
+- **Snapshot diffs instead of an upstream change feed.** No firm publishes a machine-readable "who changed" feed, so periodic full observations diffed against the last verified state are the only reliable primitive. The health checks (source change, coverage collapse) sit on top so a broken parse cannot masquerade as real movement.
+- **A build-step SPA instead of a plain HTML/CSS/JS client.** The dashboard is a thin client of the read-only JSON API with no build toolchain, so the served artifact is the source. A framework would add tooling for little gain at this size.
+
+### Deliberately left out of scope
+
+- **Authentication, TLS, and multi-user state.** The bundled server is read-only and loopback-only for a reviewer; a shared team deployment would need an authenticated production service behind TLS.
+- **Saved searches and alerting.** The change feed is the raw material, but digests and notifications (email, Slack) are not built.
+- **Contact enrichment.** The adapters avoid phone and email by default; the optional enrich path is the hook, not the product.
+- **Cross-firm identity and automatic lateral matching.** Only a conservative, clearly labelled name-based "possible moves" view exists, and it is never folded into the confirmed change counts.
+- **Concurrency, durable crawl checkpoints, and a built-in scheduler.** A run is a single sequential pass under one bounded request budget, scheduled externally (cron) with exit-code alerting rather than by an in-process scheduler.
+
+### What I'd change first
+
+If I changed one engineering thing first, it would be the ingestion run, not the data model: give each source a **durable crawl checkpoint and its own request budget**, and add **limited concurrency across hosts**. Today `sync` walks firms one at a time under a single global, first-come-first-served budget, which is the design's main scaling limit and the likeliest cause of a partial refresh at fifty firms. Conditional requests (ETag / If-Modified-Since) and honouring `Retry-After` come next — they cut load and reduce the 429 stalls that currently park Paul Hastings. The product priorities (a reconcilable Paul Hastings source, then automating Wachtell's reviewed refresh) are separate and come after the ingestion work.
+
 ## Onboarding, weekly operation, and recovery
 
 1. Add or update the firm in `config/firms.json`. Verify the official practice scope, partner-role filters, global office behavior, stable identifier, and source pagination. Use `coverage_gap` while testing so incomplete output remains out of the verified roster.
