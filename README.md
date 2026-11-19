@@ -128,7 +128,7 @@ For 50 firms I would keep the same adapter and publication model, give each sour
 
 Approximately four hours including the additional source verification.
 
-# Use of AI
+## Use of AI
 
 - AI can be integrated like a chatbot which could understand human intent and can fetch data accordingly and provide details naturally to the user. This helps the user save time and get data they need by explaining it to the chatbot.
 
