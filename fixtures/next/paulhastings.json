@@ -1,0 +1,150 @@
+[
+  {
+    "full_name": "Katherine Barrow",
+    "title": "Managing Partner",
+    "practices": [
+      "Securities"
+    ],
+    "offices": [
+      "Beijing"
+    ],
+    "email": "katherine.barrow@paulhastings.example.invalid",
+    "phone": "+1 202 555 0159",
+    "profile_url": "https://paulhastings.example.invalid/people/katherine-barrow"
+  },
+  {
+    "full_name": "Alexander Ashford",
+    "title": "Partner",
+    "practices": [
+      "Restructuring"
+    ],
+    "offices": [
+      "Los Angeles"
+    ],
+    "email": "alexander.ashford@paulhastings.example.invalid",
+    "phone": "+1 415 555 0111",
+    "profile_url": "https://paulhastings.example.invalid/people/alexander-ashford"
+  },
+  {
+    "full_name": "Hannah Dubois",
+    "title": "Partner",
+    "practices": [
+      "Securities",
+      "Restructuring",
+      "Corporate"
+    ],
+    "offices": [
+      "Frankfurt"
+    ],
+    "email": "hannah.dubois@paulhastings.example.invalid",
+    "phone": "+1 202 555 0183",
+    "profile_url": "https://paulhastings.example.invalid/people/hannah-dubois"
+  },
+  {
+    "full_name": "Michael Kensington",
+    "title": "Partner",
+    "practices": [
+      "M&A",
+      "Banking & Finance"
+    ],
+    "offices": [
+      "Houston"
+    ],
+    "email": "michael.kensington@paulhastings.example.invalid",
+    "phone": "+1 312 555 0113",
+    "profile_url": "https://paulhastings.example.invalid/people/michael-kensington"
+  },
+  {
+    "full_name": "Sophia Quimby",
+    "title": "Senior Partner",
+    "practices": [
+      "Private Equity",
+      "Restructuring"
+    ],
+    "offices": [
+      "Tokyo"
+    ],
+    "email": "sophia.quimby@paulhastings.example.invalid",
+    "phone": "+1 202 555 0128",
+    "profile_url": "https://paulhastings.example.invalid/people/sophia-quimby"
+  },
+  {
+    "full_name": "Olivia Winstanley",
+    "title": "Partner",
+    "practices": [
+      "Securities",
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Paris"
+    ],
+    "email": "olivia.winstanley@paulhastings.example.invalid",
+    "phone": "+1 202 555 0115",
+    "profile_url": "https://paulhastings.example.invalid/people/olivia-winstanley"
+  },
+  {
+    "full_name": "Samuel Mancini",
+    "title": "Partner",
+    "practices": [
+      "M&A"
+    ],
+    "offices": [
+      "Paris"
+    ],
+    "email": "samuel.mancini@paulhastings.example.invalid",
+    "phone": "+1 312 555 0127",
+    "profile_url": "https://paulhastings.example.invalid/people/samuel-mancini"
+  },
+  {
+    "full_name": "Mei Chen",
+    "title": "Partner",
+    "practices": [
+      "Tax"
+    ],
+    "offices": [
+      "San Francisco"
+    ],
+    "email": "mei.chen@paulhastings.example.invalid",
+    "phone": "+1 312 555 0131",
+    "profile_url": "https://paulhastings.example.invalid/people/mei-chen"
+  },
+  {
+    "full_name": "Sarah Hollingsworth",
+    "title": "Partner",
+    "practices": [
+      "Intellectual Property"
+    ],
+    "offices": [
+      "Paris"
+    ],
+    "email": "sarah.hollingsworth@paulhastings.example.invalid",
+    "phone": "+1 310 555 0156",
+    "profile_url": "https://paulhastings.example.invalid/people/sarah-hollingsworth"
+  },
+  {
+    "full_name": "Grace Mancini",
+    "title": "Associate",
+    "practices": [
+      "Intellectual Property"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "grace.mancini@paulhastings.example.invalid",
+    "phone": "+1 212 555 0168",
+    "profile_url": "https://paulhastings.example.invalid/people/grace-mancini"
+  },
+  {
+    "full_name": "Ethan Barrow",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Singapore"
+    ],
+    "email": "ethan.barrow@paulhastings.example.invalid",
+    "phone": "+1 212 555 0198",
+    "profile_url": "https://paulhastings.example.invalid/people/ethan-barrow"
+  }
+]

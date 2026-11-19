@@ -1,0 +1,135 @@
+[
+  {
+    "full_name": "Grace Cohen",
+    "title": "Managing Partner",
+    "practices": [
+      "Restructuring"
+    ],
+    "offices": [
+      "Austin"
+    ],
+    "email": "grace.cohen@kirkland.example.invalid",
+    "phone": "+1 310 555 0154",
+    "profile_url": "https://kirkland.example.invalid/people/grace-cohen"
+  },
+  {
+    "full_name": "Daniel Thornton",
+    "title": "Managing Partner",
+    "practices": [
+      "Private Equity"
+    ],
+    "offices": [
+      "Shanghai"
+    ],
+    "email": "daniel.thornton@kirkland.example.invalid",
+    "phone": "+1 415 555 0131",
+    "profile_url": "https://kirkland.example.invalid/people/daniel-thornton"
+  },
+  {
+    "full_name": "Patrick Silva",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance",
+      "M&A"
+    ],
+    "offices": [
+      "Dallas"
+    ],
+    "email": "patrick.silva@kirkland.example.invalid",
+    "phone": "+1 212 555 0127",
+    "profile_url": "https://kirkland.example.invalid/people/patrick-silva"
+  },
+  {
+    "full_name": "Mei Merriweather",
+    "title": "Senior Partner",
+    "practices": [
+      "M&A",
+      "Restructuring"
+    ],
+    "offices": [
+      "Boston"
+    ],
+    "email": "mei.merriweather@kirkland.example.invalid",
+    "phone": "+1 310 555 0126",
+    "profile_url": "https://kirkland.example.invalid/people/mei-merriweather"
+  },
+  {
+    "full_name": "Peter Andersen",
+    "title": "Senior Partner",
+    "practices": [
+      "Restructuring"
+    ],
+    "offices": [
+      "Houston"
+    ],
+    "email": "peter.andersen@kirkland.example.invalid",
+    "phone": "+1 310 555 0199",
+    "profile_url": "https://kirkland.example.invalid/people/peter-andersen"
+  },
+  {
+    "full_name": "Thomas Wexford",
+    "title": "Managing Partner",
+    "practices": [
+      "Banking & Finance",
+      "Capital Markets"
+    ],
+    "offices": [
+      "Munich"
+    ],
+    "email": "thomas.wexford@kirkland.example.invalid",
+    "phone": "+1 415 555 0188",
+    "profile_url": "https://kirkland.example.invalid/people/thomas-wexford"
+  },
+  {
+    "full_name": "Ingrid Kensington",
+    "title": "Partner",
+    "practices": [
+      "Intellectual Property"
+    ],
+    "offices": [
+      "San Francisco"
+    ],
+    "email": "ingrid.kensington@kirkland.example.invalid",
+    "phone": "+1 312 555 0167",
+    "profile_url": "https://kirkland.example.invalid/people/ingrid-kensington"
+  },
+  {
+    "full_name": "Emily Quimby",
+    "title": "Special Counsel",
+    "practices": [
+      "Executive Compensation & Benefits"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "emily.quimby@kirkland.example.invalid",
+    "phone": "+1 310 555 0196",
+    "profile_url": "https://kirkland.example.invalid/people/emily-quimby"
+  },
+  {
+    "full_name": "Patrick Radcliffe",
+    "title": "Of Counsel",
+    "practices": [
+      "White Collar Defense"
+    ],
+    "offices": [
+      "Los Angeles"
+    ],
+    "email": "patrick.radcliffe@kirkland.example.invalid",
+    "phone": "+1 415 555 0174",
+    "profile_url": "https://kirkland.example.invalid/people/patrick-radcliffe"
+  },
+  {
+    "full_name": "Patrick Ashford",
+    "title": "Partner",
+    "practices": [
+      "Securities"
+    ],
+    "offices": [
+      "Hong Kong"
+    ],
+    "email": "patrick.ashford@kirkland.example.invalid",
+    "phone": "+1 312 555 0151",
+    "profile_url": "https://kirkland.example.invalid/people/patrick-ashford"
+  }
+]

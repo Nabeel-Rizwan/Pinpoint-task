@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Runtime artefacts (generated, not source)
+data/
+out/
+
+# Environments
+.venv/
+venv/
+
+# Tooling
+.commandcode/
+.DS_Store
+
+# Assessment brief supplied separately
+/Pinpoint_Partners_CTO_Technical_Assessment.pdf
+/Pinpoint-assessment.zip

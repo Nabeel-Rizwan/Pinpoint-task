@@ -1,0 +1,138 @@
+[
+  {
+    "full_name": "Peter Vance",
+    "title": "Managing Partner",
+    "practices": [
+      "Banking & Finance",
+      "M&A"
+    ],
+    "offices": [
+      "Singapore"
+    ],
+    "email": "peter.vance@kingspalding.example.invalid",
+    "phone": "+1 310 555 0198",
+    "profile_url": "https://kingspalding.example.invalid/people/peter-vance"
+  },
+  {
+    "full_name": "Hannah Ellsworth",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets"
+    ],
+    "offices": [
+      "Houston"
+    ],
+    "email": "hannah.ellsworth@kingspalding.example.invalid",
+    "phone": "+1 310 555 0112",
+    "profile_url": "https://kingspalding.example.invalid/people/hannah-ellsworth"
+  },
+  {
+    "full_name": "Nadia Barrow",
+    "title": "Partner",
+    "practices": [
+      "Banking & Finance",
+      "Corporate"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "nadia.barrow@kingspalding.example.invalid",
+    "phone": "+1 415 555 0158",
+    "profile_url": "https://kingspalding.example.invalid/people/nadia-barrow"
+  },
+  {
+    "full_name": "Adam Fairchild",
+    "title": "Senior Partner",
+    "practices": [
+      "Corporate Governance",
+      "Restructuring"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "adam.fairchild@kingspalding.example.invalid",
+    "phone": "+1 202 555 0179",
+    "profile_url": "https://kingspalding.example.invalid/people/adam-fairchild"
+  },
+  {
+    "full_name": "Thomas Cohen",
+    "title": "Senior Partner",
+    "practices": [
+      "Capital Markets",
+      "Private Equity"
+    ],
+    "offices": [
+      "Riyadh"
+    ],
+    "email": "thomas.cohen@kingspalding.example.invalid",
+    "phone": "+1 312 555 0101",
+    "profile_url": "https://kingspalding.example.invalid/people/thomas-cohen"
+  },
+  {
+    "full_name": "Daniel Ashworth",
+    "title": "Partner",
+    "practices": [
+      "Corporate",
+      "Securities"
+    ],
+    "offices": [
+      "Abu Dhabi"
+    ],
+    "email": "daniel.ashworth@kingspalding.example.invalid",
+    "phone": "+1 310 555 0183",
+    "profile_url": "https://kingspalding.example.invalid/people/daniel-ashworth"
+  },
+  {
+    "full_name": "Olivia Nakamura",
+    "title": "Partner",
+    "practices": [
+      "Environmental"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "olivia.nakamura@kingspalding.example.invalid",
+    "phone": "+1 415 555 0144",
+    "profile_url": "https://kingspalding.example.invalid/people/olivia-nakamura"
+  },
+  {
+    "full_name": "Laura Rahman",
+    "title": "Associate",
+    "practices": [
+      "Tax"
+    ],
+    "offices": [
+      "Frankfurt"
+    ],
+    "email": "laura.rahman@kingspalding.example.invalid",
+    "phone": "+1 310 555 0115",
+    "profile_url": "https://kingspalding.example.invalid/people/laura-rahman"
+  },
+  {
+    "full_name": "Priya Cohen",
+    "title": "Of Counsel",
+    "practices": [
+      "Tax"
+    ],
+    "offices": [
+      "Abu Dhabi"
+    ],
+    "email": "priya.cohen@kingspalding.example.invalid",
+    "phone": "+1 312 555 0159",
+    "profile_url": "https://kingspalding.example.invalid/people/priya-cohen"
+  },
+  {
+    "full_name": "Emily Whitfield",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets",
+      "M&A"
+    ],
+    "offices": [
+      "Dubai"
+    ],
+    "email": "emily.whitfield@kingspalding.example.invalid",
+    "phone": "+1 310 555 0128",
+    "profile_url": "https://kingspalding.example.invalid/people/emily-whitfield"
+  }
+]

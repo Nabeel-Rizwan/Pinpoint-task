@@ -1,0 +1,163 @@
+[
+  {
+    "full_name": "James Winstanley",
+    "title": "Managing Partner",
+    "practices": [
+      "M&A",
+      "Corporate"
+    ],
+    "offices": [
+      "Chicago"
+    ],
+    "email": "james.winstanley@skadden.example.invalid",
+    "phone": "+1 202 555 0127",
+    "profile_url": "https://skadden.example.invalid/people/james-winstanley"
+  },
+  {
+    "full_name": "Elena Blackwood",
+    "title": "Managing Partner",
+    "practices": [
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Houston"
+    ],
+    "email": "elena.blackwood@skadden.example.invalid",
+    "phone": "+1 212 555 0119",
+    "profile_url": "https://skadden.example.invalid/people/elena-blackwood"
+  },
+  {
+    "full_name": "Sophia Novak",
+    "title": "Managing Partner",
+    "practices": [
+      "Corporate Governance",
+      "M&A"
+    ],
+    "offices": [
+      "Moscow"
+    ],
+    "email": "sophia.novak@skadden.example.invalid",
+    "phone": "+1 312 555 0185",
+    "profile_url": "https://skadden.example.invalid/people/sophia-novak"
+  },
+  {
+    "full_name": "Nadia Vance",
+    "title": "Managing Partner",
+    "practices": [
+      "Banking & Finance",
+      "Securities"
+    ],
+    "offices": [
+      "Los Angeles"
+    ],
+    "email": "nadia.vance@skadden.example.invalid",
+    "phone": "+1 212 555 0102",
+    "profile_url": "https://skadden.example.invalid/people/nadia-vance"
+  },
+  {
+    "full_name": "Matthew Kowalski",
+    "title": "Partner",
+    "practices": [
+      "M&A",
+      "Corporate"
+    ],
+    "offices": [
+      "Boston"
+    ],
+    "email": "matthew.kowalski@skadden.example.invalid",
+    "phone": "+1 212 555 0196",
+    "profile_url": "https://skadden.example.invalid/people/matthew-kowalski"
+  },
+  {
+    "full_name": "Mei Barrow",
+    "title": "Senior Partner",
+    "practices": [
+      "Restructuring"
+    ],
+    "offices": [
+      "Tokyo"
+    ],
+    "email": "mei.barrow@skadden.example.invalid",
+    "phone": "+1 202 555 0191",
+    "profile_url": "https://skadden.example.invalid/people/mei-barrow"
+  },
+  {
+    "full_name": "Mei Hollingsworth",
+    "title": "Partner",
+    "practices": [
+      "Securities"
+    ],
+    "offices": [
+      "Palo Alto"
+    ],
+    "email": "mei.hollingsworth@skadden.example.invalid",
+    "phone": "+1 212 555 0175",
+    "profile_url": "https://skadden.example.invalid/people/mei-hollingsworth"
+  },
+  {
+    "full_name": "Priya Sinclair",
+    "title": "Managing Partner",
+    "practices": [
+      "Securities"
+    ],
+    "offices": [
+      "Palo Alto"
+    ],
+    "email": "priya.sinclair@skadden.example.invalid",
+    "phone": "+1 312 555 0106",
+    "profile_url": "https://skadden.example.invalid/people/priya-sinclair"
+  },
+  {
+    "full_name": "Patrick Hargrove",
+    "title": "Associate",
+    "practices": [
+      "Intellectual Property"
+    ],
+    "offices": [
+      "Houston"
+    ],
+    "email": "patrick.hargrove@skadden.example.invalid",
+    "phone": "+1 212 555 0194",
+    "profile_url": "https://skadden.example.invalid/people/patrick-hargrove"
+  },
+  {
+    "full_name": "Olivia Radcliffe",
+    "title": "Associate",
+    "practices": [
+      "White Collar Defense"
+    ],
+    "offices": [
+      "S\u00e3o Paulo"
+    ],
+    "email": "olivia.radcliffe@skadden.example.invalid",
+    "phone": "+1 310 555 0142",
+    "profile_url": "https://skadden.example.invalid/people/olivia-radcliffe"
+  },
+  {
+    "full_name": "Olivia Fairchild",
+    "title": "Counsel",
+    "practices": [
+      "Tax"
+    ],
+    "offices": [
+      "Wilmington"
+    ],
+    "email": "olivia.fairchild@skadden.example.invalid",
+    "phone": "+1 415 555 0114",
+    "profile_url": "https://skadden.example.invalid/people/olivia-fairchild"
+  },
+  {
+    "full_name": "Thomas Barrow",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets",
+      "Corporate"
+    ],
+    "offices": [
+      "Shanghai"
+    ],
+    "email": "thomas.barrow@skadden.example.invalid",
+    "phone": "+1 312 555 0152",
+    "profile_url": "https://skadden.example.invalid/people/thomas-barrow"
+  }
+]

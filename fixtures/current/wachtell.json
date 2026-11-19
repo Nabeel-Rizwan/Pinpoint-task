@@ -1,0 +1,121 @@
+[
+  {
+    "full_name": "Robert Chen",
+    "title": "Partner",
+    "practices": [
+      "Private Equity",
+      "M&A"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "robert.chen@wachtell.example.invalid",
+    "phone": "+1 212 555 0150",
+    "profile_url": "https://wachtell.example.invalid/people/robert-chen"
+  },
+  {
+    "full_name": "Emily Okafor",
+    "title": "Partner",
+    "practices": [
+      "Banking & Finance"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "emily.okafor@wachtell.example.invalid",
+    "phone": "+1 310 555 0153",
+    "profile_url": "https://wachtell.example.invalid/people/emily-okafor"
+  },
+  {
+    "full_name": "Ethan Thornton",
+    "title": "Managing Partner",
+    "practices": [
+      "M&A"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "ethan.thornton@wachtell.example.invalid",
+    "phone": "+1 415 555 0143",
+    "profile_url": "https://wachtell.example.invalid/people/ethan-thornton"
+  },
+  {
+    "full_name": "Peter Rossi",
+    "title": "Partner",
+    "practices": [
+      "Private Equity"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "peter.rossi@wachtell.example.invalid",
+    "phone": "+1 310 555 0143",
+    "profile_url": "https://wachtell.example.invalid/people/peter-rossi"
+  },
+  {
+    "full_name": "David Bekker",
+    "title": "Partner",
+    "practices": [
+      "Corporate",
+      "Restructuring"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "david.bekker@wachtell.example.invalid",
+    "phone": "+1 312 555 0103",
+    "profile_url": "https://wachtell.example.invalid/people/david-bekker"
+  },
+  {
+    "full_name": "Adam Ellsworth",
+    "title": "Partner",
+    "practices": [
+      "M&A"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "adam.ellsworth@wachtell.example.invalid",
+    "phone": "+1 212 555 0157",
+    "profile_url": "https://wachtell.example.invalid/people/adam-ellsworth"
+  },
+  {
+    "full_name": "Thomas Hargrove",
+    "title": "Partner",
+    "practices": [
+      "Antitrust"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "thomas.hargrove@wachtell.example.invalid",
+    "phone": "+1 212 555 0173",
+    "profile_url": "https://wachtell.example.invalid/people/thomas-hargrove"
+  },
+  {
+    "full_name": "Priya Andersen",
+    "title": "Special Counsel",
+    "practices": [
+      "Litigation"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "priya.andersen@wachtell.example.invalid",
+    "phone": "+1 212 555 0115",
+    "profile_url": "https://wachtell.example.invalid/people/priya-andersen"
+  },
+  {
+    "full_name": "Katherine Quimby",
+    "title": "Partner",
+    "practices": [
+      "Antitrust"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "katherine.quimby@wachtell.example.invalid",
+    "phone": "+1 415 555 0198",
+    "profile_url": "https://wachtell.example.invalid/people/katherine-quimby"
+  }
+]

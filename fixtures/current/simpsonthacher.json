@@ -1,0 +1,134 @@
+[
+  {
+    "full_name": "Ethan Sanders",
+    "title": "Partner",
+    "practices": [
+      "M&A"
+    ],
+    "offices": [
+      "Los Angeles"
+    ],
+    "email": "ethan.sanders@simpsonthacher.example.invalid",
+    "phone": "+1 310 555 0168",
+    "profile_url": "https://simpsonthacher.example.invalid/people/ethan-sanders"
+  },
+  {
+    "full_name": "Thomas Silva",
+    "title": "Senior Partner",
+    "practices": [
+      "Banking & Finance"
+    ],
+    "offices": [
+      "Los Angeles"
+    ],
+    "email": "thomas.silva@simpsonthacher.example.invalid",
+    "phone": "+1 202 555 0164",
+    "profile_url": "https://simpsonthacher.example.invalid/people/thomas-silva"
+  },
+  {
+    "full_name": "Zoe Radcliffe",
+    "title": "Managing Partner",
+    "practices": [
+      "Corporate Governance",
+      "Corporate"
+    ],
+    "offices": [
+      "Houston"
+    ],
+    "email": "zoe.radcliffe@simpsonthacher.example.invalid",
+    "phone": "+1 312 555 0124",
+    "profile_url": "https://simpsonthacher.example.invalid/people/zoe-radcliffe"
+  },
+  {
+    "full_name": "Christopher Dubois",
+    "title": "Partner",
+    "practices": [
+      "Corporate"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "christopher.dubois@simpsonthacher.example.invalid",
+    "phone": "+1 312 555 0130",
+    "profile_url": "https://simpsonthacher.example.invalid/people/christopher-dubois"
+  },
+  {
+    "full_name": "Robert Fernandez",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Tokyo"
+    ],
+    "email": "robert.fernandez@simpsonthacher.example.invalid",
+    "phone": "+1 312 555 0191",
+    "profile_url": "https://simpsonthacher.example.invalid/people/robert-fernandez"
+  },
+  {
+    "full_name": "Alexander Wexford",
+    "title": "Partner",
+    "practices": [
+      "Restructuring"
+    ],
+    "offices": [
+      "Hong Kong"
+    ],
+    "email": "alexander.wexford@simpsonthacher.example.invalid",
+    "phone": "+1 415 555 0198",
+    "profile_url": "https://simpsonthacher.example.invalid/people/alexander-wexford"
+  },
+  {
+    "full_name": "Zoe Blackwood",
+    "title": "Senior Partner",
+    "practices": [
+      "Capital Markets",
+      "Banking & Finance"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "zoe.blackwood@simpsonthacher.example.invalid",
+    "phone": "+1 415 555 0185",
+    "profile_url": "https://simpsonthacher.example.invalid/people/zoe-blackwood"
+  },
+  {
+    "full_name": "Ingrid Fernandez",
+    "title": "Of Counsel",
+    "practices": [
+      "Environmental"
+    ],
+    "offices": [
+      "Hong Kong"
+    ],
+    "email": "ingrid.fernandez@simpsonthacher.example.invalid",
+    "phone": "+1 212 555 0160",
+    "profile_url": "https://simpsonthacher.example.invalid/people/ingrid-fernandez"
+  },
+  {
+    "full_name": "Sophia Barrow",
+    "title": "Partner",
+    "practices": [
+      "White Collar Defense"
+    ],
+    "offices": [
+      "Beijing"
+    ],
+    "email": "sophia.barrow@simpsonthacher.example.invalid",
+    "phone": "+1 212 555 0156",
+    "profile_url": "https://simpsonthacher.example.invalid/people/sophia-barrow"
+  },
+  {
+    "full_name": "Benjamin Fairchild",
+    "title": "Of Counsel",
+    "practices": [
+      "Intellectual Property"
+    ],
+    "offices": [
+      "Tokyo"
+    ],
+    "email": "benjamin.fairchild@simpsonthacher.example.invalid",
+    "phone": "+1 202 555 0142",
+    "profile_url": "https://simpsonthacher.example.invalid/people/benjamin-fairchild"
+  }
+]

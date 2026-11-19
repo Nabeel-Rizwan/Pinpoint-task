@@ -1,0 +1,136 @@
+[
+  {
+    "full_name": "Benjamin Whitfield",
+    "title": "Partner",
+    "practices": [
+      "Securities",
+      "Restructuring"
+    ],
+    "offices": [
+      "Warsaw"
+    ],
+    "email": "benjamin.whitfield@weil.example.invalid",
+    "phone": "+1 202 555 0136",
+    "profile_url": "https://weil.example.invalid/people/benjamin-whitfield"
+  },
+  {
+    "full_name": "Thomas Dubois",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets"
+    ],
+    "offices": [
+      "Boston"
+    ],
+    "email": "thomas.dubois@weil.example.invalid",
+    "phone": "+1 415 555 0155",
+    "profile_url": "https://weil.example.invalid/people/thomas-dubois"
+  },
+  {
+    "full_name": "Grace Ashford",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance",
+      "Restructuring"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "grace.ashford@weil.example.invalid",
+    "phone": "+1 312 555 0148",
+    "profile_url": "https://weil.example.invalid/people/grace-ashford"
+  },
+  {
+    "full_name": "Rachel Novak",
+    "title": "Partner",
+    "practices": [
+      "Corporate"
+    ],
+    "offices": [
+      "Beijing"
+    ],
+    "email": "rachel.novak@weil.example.invalid",
+    "phone": "+1 415 555 0125",
+    "profile_url": "https://weil.example.invalid/people/rachel-novak"
+  },
+  {
+    "full_name": "Daniel Fernandez",
+    "title": "Partner",
+    "practices": [
+      "Corporate",
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Beijing"
+    ],
+    "email": "daniel.fernandez@weil.example.invalid",
+    "phone": "+1 310 555 0138",
+    "profile_url": "https://weil.example.invalid/people/daniel-fernandez"
+  },
+  {
+    "full_name": "Olivia Rahman",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets"
+    ],
+    "offices": [
+      "Boston"
+    ],
+    "email": "olivia.rahman@weil.example.invalid",
+    "phone": "+1 415 555 0159",
+    "profile_url": "https://weil.example.invalid/people/olivia-rahman"
+  },
+  {
+    "full_name": "Nicholas Ibrahim",
+    "title": "Managing Partner",
+    "practices": [
+      "Securities",
+      "Capital Markets"
+    ],
+    "offices": [
+      "Dallas"
+    ],
+    "email": "nicholas.ibrahim@weil.example.invalid",
+    "phone": "+1 415 555 0123",
+    "profile_url": "https://weil.example.invalid/people/nicholas-ibrahim"
+  },
+  {
+    "full_name": "Sophia Novak",
+    "title": "Partner",
+    "practices": [
+      "Tax"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "sophia.novak@weil.example.invalid",
+    "phone": "+1 202 555 0136",
+    "profile_url": "https://weil.example.invalid/people/sophia-novak"
+  },
+  {
+    "full_name": "Peter Ibrahim",
+    "title": "Associate",
+    "practices": [
+      "Litigation"
+    ],
+    "offices": [
+      "Miami"
+    ],
+    "email": "peter.ibrahim@weil.example.invalid",
+    "phone": "+1 212 555 0109",
+    "profile_url": "https://weil.example.invalid/people/peter-ibrahim"
+  },
+  {
+    "full_name": "Katherine Pemberton",
+    "title": "Partner",
+    "practices": [
+      "Antitrust"
+    ],
+    "offices": [
+      "Hong Kong"
+    ],
+    "email": "katherine.pemberton@weil.example.invalid",
+    "phone": "+1 415 555 0129",
+    "profile_url": "https://weil.example.invalid/people/katherine-pemberton"
+  }
+]

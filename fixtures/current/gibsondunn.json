@@ -1,0 +1,123 @@
+[
+  {
+    "full_name": "Sarah Andersen",
+    "title": "Partner",
+    "practices": [
+      "Private Equity",
+      "M&A"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "sarah.andersen@gibsondunn.example.invalid",
+    "phone": "+1 212 555 0110",
+    "profile_url": "https://gibsondunn.example.invalid/people/sarah-andersen"
+  },
+  {
+    "full_name": "Grace Hollingsworth",
+    "title": "Senior Partner",
+    "practices": [
+      "Private Equity",
+      "Capital Markets"
+    ],
+    "offices": [
+      "Houston"
+    ],
+    "email": "grace.hollingsworth@gibsondunn.example.invalid",
+    "phone": "+1 212 555 0134",
+    "profile_url": "https://gibsondunn.example.invalid/people/grace-hollingsworth"
+  },
+  {
+    "full_name": "Charlotte Whitfield",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Singapore"
+    ],
+    "email": "charlotte.whitfield@gibsondunn.example.invalid",
+    "phone": "+1 415 555 0140",
+    "profile_url": "https://gibsondunn.example.invalid/people/charlotte-whitfield"
+  },
+  {
+    "full_name": "Jonathan Blackwood",
+    "title": "Partner",
+    "practices": [
+      "Private Equity",
+      "Securities"
+    ],
+    "offices": [
+      "Munich"
+    ],
+    "email": "jonathan.blackwood@gibsondunn.example.invalid",
+    "phone": "+1 310 555 0156",
+    "profile_url": "https://gibsondunn.example.invalid/people/jonathan-blackwood"
+  },
+  {
+    "full_name": "James Andersen",
+    "title": "Senior Partner",
+    "practices": [
+      "Corporate Governance",
+      "Restructuring"
+    ],
+    "offices": [
+      "Singapore"
+    ],
+    "email": "james.andersen@gibsondunn.example.invalid",
+    "phone": "+1 415 555 0133",
+    "profile_url": "https://gibsondunn.example.invalid/people/james-andersen"
+  },
+  {
+    "full_name": "Marcus Wexford",
+    "title": "Senior Partner",
+    "practices": [
+      "Banking & Finance"
+    ],
+    "offices": [
+      "Los Angeles"
+    ],
+    "email": "marcus.wexford@gibsondunn.example.invalid",
+    "phone": "+1 312 555 0168",
+    "profile_url": "https://gibsondunn.example.invalid/people/marcus-wexford"
+  },
+  {
+    "full_name": "Ethan Wexford",
+    "title": "Partner",
+    "practices": [
+      "Antitrust"
+    ],
+    "offices": [
+      "Dallas"
+    ],
+    "email": "ethan.wexford@gibsondunn.example.invalid",
+    "phone": "+1 312 555 0104",
+    "profile_url": "https://gibsondunn.example.invalid/people/ethan-wexford"
+  },
+  {
+    "full_name": "Patrick Pemberton",
+    "title": "Partner",
+    "practices": [
+      "Tax"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "patrick.pemberton@gibsondunn.example.invalid",
+    "phone": "+1 310 555 0121",
+    "profile_url": "https://gibsondunn.example.invalid/people/patrick-pemberton"
+  },
+  {
+    "full_name": "Zoe Nakamura",
+    "title": "Partner",
+    "practices": [
+      "Executive Compensation & Benefits"
+    ],
+    "offices": [
+      "San Francisco"
+    ],
+    "email": "zoe.nakamura@gibsondunn.example.invalid",
+    "phone": "+1 310 555 0130",
+    "profile_url": "https://gibsondunn.example.invalid/people/zoe-nakamura"
+  }
+]

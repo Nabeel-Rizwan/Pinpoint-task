@@ -1,0 +1,21 @@
+[project]
+name = "pinpoint"
+version = "1.0.0"
+description = "Corporate & M&A partner intelligence for legal recruiters"
+readme = "README.md"
+requires-python = ">=3.10"
+# Intentionally dependency-free: standard library only.
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+pinpoint = "pinpoint.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["pinpoint", "pinpoint.adapters"]

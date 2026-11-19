@@ -1,0 +1,163 @@
+[
+  {
+    "full_name": "Emily Novak",
+    "title": "Managing Partner",
+    "practices": [
+      "Securities",
+      "Banking & Finance"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "emily.novak@cravath.example.invalid",
+    "phone": "+1 415 555 0197",
+    "profile_url": "https://cravath.example.invalid/people/emily-novak"
+  },
+  {
+    "full_name": "Ethan Barrow",
+    "title": "Partner",
+    "practices": [
+      "Restructuring"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "ethan.barrow@cravath.example.invalid",
+    "phone": "+1 312 555 0156",
+    "profile_url": "https://cravath.example.invalid/people/ethan-barrow"
+  },
+  {
+    "full_name": "Jonathan Cohen",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets",
+      "Banking & Finance",
+      "Corporate"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "jonathan.cohen@cravath.example.invalid",
+    "phone": "+1 312 555 0100",
+    "profile_url": "https://cravath.example.invalid/people/jonathan-cohen"
+  },
+  {
+    "full_name": "Marcus Radcliffe",
+    "title": "Senior Partner",
+    "practices": [
+      "Corporate"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "marcus.radcliffe@cravath.example.invalid",
+    "phone": "+1 310 555 0147",
+    "profile_url": "https://cravath.example.invalid/people/marcus-radcliffe"
+  },
+  {
+    "full_name": "Amelia Kensington",
+    "title": "Partner",
+    "practices": [
+      "Corporate"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "amelia.kensington@cravath.example.invalid",
+    "phone": "+1 312 555 0127",
+    "profile_url": "https://cravath.example.invalid/people/amelia-kensington"
+  },
+  {
+    "full_name": "Grace Merriweather",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "grace.merriweather@cravath.example.invalid",
+    "phone": "+1 415 555 0186",
+    "profile_url": "https://cravath.example.invalid/people/grace-merriweather"
+  },
+  {
+    "full_name": "Robert Ashworth",
+    "title": "Managing Partner",
+    "practices": [
+      "Corporate Governance",
+      "Banking & Finance"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "robert.ashworth@cravath.example.invalid",
+    "phone": "+1 202 555 0199",
+    "profile_url": "https://cravath.example.invalid/people/robert-ashworth"
+  },
+  {
+    "full_name": "Emily Cohen",
+    "title": "Partner",
+    "practices": [
+      "Banking & Finance",
+      "Private Equity"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "emily.cohen@cravath.example.invalid",
+    "phone": "+1 212 555 0127",
+    "profile_url": "https://cravath.example.invalid/people/emily-cohen"
+  },
+  {
+    "full_name": "Sarah Chen",
+    "title": "Partner",
+    "practices": [
+      "Executive Compensation & Benefits"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "sarah.chen@cravath.example.invalid",
+    "phone": "+1 212 555 0153",
+    "profile_url": "https://cravath.example.invalid/people/sarah-chen"
+  },
+  {
+    "full_name": "Hannah Whitfield",
+    "title": "Partner",
+    "practices": [
+      "Intellectual Property"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "hannah.whitfield@cravath.example.invalid",
+    "phone": "+1 415 555 0167",
+    "profile_url": "https://cravath.example.invalid/people/hannah-whitfield"
+  },
+  {
+    "full_name": "David Bekker",
+    "title": "Associate",
+    "practices": [
+      "Real Estate"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "david.bekker@cravath.example.invalid",
+    "phone": "+1 212 555 0193",
+    "profile_url": "https://cravath.example.invalid/people/david-bekker"
+  },
+  {
+    "full_name": "Zoe Sanders",
+    "title": "Senior Partner",
+    "practices": [
+      "Banking & Finance"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "zoe.sanders@cravath.example.invalid",
+    "phone": "+1 415 555 0131",
+    "profile_url": "https://cravath.example.invalid/people/zoe-sanders"
+  }
+]

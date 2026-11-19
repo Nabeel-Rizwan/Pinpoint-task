@@ -1,0 +1,1076 @@
+{
+  "firms": [
+    {
+      "slug": "kirkland",
+      "name": "Kirkland & Ellis",
+      "homepage": "https://www.kirkland.com",
+      "partners_url": "https://www.kirkland.com/api/sitecore/ProfessionalsApi/Lawyers",
+      "adapter": "json_api",
+      "options": {
+        "offices": [
+          "New York",
+          "Chicago",
+          "Washington, D.C.",
+          "London",
+          "Los Angeles",
+          "San Francisco",
+          "Boston",
+          "Hong Kong",
+          "Munich",
+          "Dallas",
+          "Houston",
+          "Austin",
+          "Bay Area",
+          "Beijing",
+          "Shanghai",
+          "Salt Lake City",
+          "Paris"
+        ],
+        "practice_url": "https://www.kirkland.com/services/practices/transactional/mergers--acquisitions",
+        "search_method": "POST",
+        "list_path": "Results",
+        "fields": {
+          "source_id": "Url",
+          "profile_url": "Url",
+          "full_name": "Name",
+          "title": "Position",
+          "offices": "Offices[].Name"
+        },
+        "pagination": {
+          "offset_param": "page",
+          "page_number": true,
+          "total": "TotalSearchResults",
+          "max_pages": 110
+        },
+        "queries": [
+          {
+            "practice": "M&A",
+            "params": {
+              "practice": "a83a26da-914b-43c9-9e89-c1f1f10512a9",
+              "level": "9ff51805-f16d-4d64-9794-6cff75200182"
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "M&A",
+            "params": {
+              "practice": "a83a26da-914b-43c9-9e89-c1f1f10512a9",
+              "level": "a41ea393-cfa8-413c-b295-29bdce0dc04a"
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "M&A",
+            "params": {
+              "practice": "a83a26da-914b-43c9-9e89-c1f1f10512a9",
+              "level": "5131d732-deda-4e3f-ab6e-06b33912da5d"
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "Corporate Governance",
+            "params": {
+              "practice": "5d2a83cf-6018-43f8-a092-1a86d83b33f5",
+              "level": "9ff51805-f16d-4d64-9794-6cff75200182"
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "Corporate Governance",
+            "params": {
+              "practice": "5d2a83cf-6018-43f8-a092-1a86d83b33f5",
+              "level": "a41ea393-cfa8-413c-b295-29bdce0dc04a"
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "Corporate Governance",
+            "params": {
+              "practice": "5d2a83cf-6018-43f8-a092-1a86d83b33f5",
+              "level": "5131d732-deda-4e3f-ab6e-06b33912da5d"
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "Private Equity",
+            "params": {
+              "practice": "49feb2b2-1a41-4763-8817-9aa9a6e93cb3",
+              "level": "9ff51805-f16d-4d64-9794-6cff75200182"
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "Private Equity",
+            "params": {
+              "practice": "49feb2b2-1a41-4763-8817-9aa9a6e93cb3",
+              "level": "a41ea393-cfa8-413c-b295-29bdce0dc04a"
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "Private Equity",
+            "params": {
+              "practice": "49feb2b2-1a41-4763-8817-9aa9a6e93cb3",
+              "level": "5131d732-deda-4e3f-ab6e-06b33912da5d"
+            },
+            "require_partner_titles": true
+          }
+        ]
+      },
+      "practice_include": [
+        "M&A",
+        "Corporate Governance",
+        "Private Equity",
+        "Corporate"
+      ]
+    },
+    {
+      "slug": "wachtell",
+      "name": "Wachtell, Lipton, Rosen & Katz",
+      "homepage": "https://www.wlrk.com",
+      "partners_url": "https://www.wlrk.com/attorneys/?asf_l=View+All",
+      "adapter": "html_list",
+      "profile_pattern": "/attorney/[a-z0-9-]+/?$",
+      "options": {
+        "offices": [
+          "New York"
+        ],
+        "practice_url": "https://www.wlrk.com/attorneys/?asf_l=View+All",
+        "coverage_gap": "The official directory is available for reviewed imports. The direct crawler received HTTP 403."
+      },
+      "practice_include": [
+        "Corporate",
+        "M&A"
+      ]
+    },
+    {
+      "slug": "quinnemanuel",
+      "name": "Quinn Emanuel Urquhart & Sullivan",
+      "homepage": "https://www.quinnemanuel.com",
+      "partners_url": "https://www.quinnemanuel.com/practice-areas/mergers-acquisitions-litigation/",
+      "adapter": "scope_statement",
+      "options": {
+        "offices": [
+          "New York",
+          "Los Angeles",
+          "San Francisco",
+          "Chicago",
+          "Washington, D.C.",
+          "Boston",
+          "London",
+          "Seattle",
+          "Silicon Valley",
+          "Houston",
+          "Miami",
+          "Atlanta"
+        ],
+        "practice_url": "https://www.quinnemanuel.com/practice-areas/mergers-acquisitions-litigation/",
+        "absence_statement": "we do not have a corporate transactional practice"
+      }
+    },
+    {
+      "slug": "davispolk",
+      "name": "Davis Polk & Wardwell",
+      "homepage": "https://www.davispolk.com",
+      "partners_url": "https://www.davispolk.com/lawyers",
+      "adapter": "davis_polk",
+      "options": {
+        "offices": [
+          "New York",
+          "Los Angeles",
+          "Northern California",
+          "Washington, D.C.",
+          "São Paulo",
+          "London",
+          "Brussels",
+          "Madrid",
+          "Hong Kong",
+          "Beijing",
+          "Tokyo"
+        ],
+        "practice_url": "https://www.davispolk.com/corporate",
+        "corporate_practices": {
+          "Corporate": "Corporate",
+          "Capital Markets": "Capital Markets",
+          "Capital Solutions": "Banking & Finance",
+          "Corporate Governance": "Corporate",
+          "Data Privacy & Cybersecurity": "Corporate",
+          "Derivatives & Structured Products": "Banking & Finance",
+          "Emerging Companies & Venture Capital": "Corporate",
+          "Environmental": "Corporate",
+          "Executive Compensation": "Corporate",
+          "Finance": "Banking & Finance",
+          "Financial Institutions": "Corporate",
+          "Foreign Investment & National Security": "Corporate",
+          "Investment Management": "Corporate",
+          "IP & Commercial Transactions": "Corporate",
+          "Liability Management & Special Opportunities": "Restructuring",
+          "Mergers & Acquisitions": "M&A",
+          "Private Credit": "Banking & Finance",
+          "Private Equity": "Private Equity",
+          "Public Company Advisory": "Corporate",
+          "Real Estate": "Corporate",
+          "Restructuring": "Restructuring",
+          "Sponsor Finance": "Banking & Finance",
+          "Tax": "Corporate"
+        }
+      },
+      "practice_include": [
+        "Corporate",
+        "M&A",
+        "Private Equity",
+        "Capital Markets",
+        "Banking & Finance",
+        "Restructuring"
+      ]
+    },
+    {
+      "slug": "simpsonthacher",
+      "name": "Simpson Thacher & Bartlett",
+      "homepage": "https://www.stblaw.com",
+      "partners_url": "https://www.stblaw.com/wp-json/stb/v1/staff-listing",
+      "adapter": "simpson_thacher",
+      "options": {
+        "offices": [
+          "New York",
+          "London",
+          "Beijing",
+          "Hong Kong",
+          "Houston",
+          "Los Angeles",
+          "Palo Alto",
+          "São Paulo",
+          "Tokyo",
+          "Washington, D.C."
+        ],
+        "practice_url": "https://www.stblaw.com/client-services/practices/corporate/mergers-and-acquisitions/corporate-m-a",
+        "practice_filters": {
+          "102726": "Corporate",
+          "103036": "M&A",
+          "103037": "Corporate M&A"
+        }
+      },
+      "practice_include": [
+        "Corporate",
+        "M&A"
+      ]
+    },
+    {
+      "slug": "paulweiss",
+      "name": "Paul, Weiss, Rifkind, Wharton & Garrison",
+      "homepage": "https://www.paulweiss.com",
+      "partners_url": "https://www.paulweiss.com/professionals",
+      "adapter": "paul_weiss",
+      "profile_pattern": "/professionals/partners-and-counsel/[^/?#]+$",
+      "options": {
+        "offices": [
+          "New York",
+          "Brussels",
+          "Houston",
+          "Hong Kong",
+          "London",
+          "Los Angeles",
+          "San Francisco",
+          "Silicon Valley",
+          "Tokyo",
+          "Toronto",
+          "Washington, D.C.",
+          "Wilmington"
+        ],
+        "practice_url": "https://www.paulweiss.com/practices/transactional/corporate",
+        "sitemap_url": "https://www.paulweiss.com/sitemap.xml",
+        "max_profiles": 600,
+        "reviewed_offices": {
+          "47315": {
+            "offices": ["New York"],
+            "source_url": "https://www.paulweiss.com/insights/firm-news/paul-weiss-adds-executive-compensation-partner-in-new-york"
+          }
+        },
+        "corporate_practices": {
+          "/practices/transactional/corporate": "Corporate",
+          "/practices/transactional/mergers-acquisitions": "M&A",
+          "/practices/transactional/asset-management-ma": "M&A",
+          "/practices/transactional/private-equity-ma": "Private Equity",
+          "/practices/transactional/corporate-governance": "Corporate",
+          "/practices/transactional/activism-defense": "Corporate",
+          "/practices/transactional/capital-markets": "Capital Markets",
+          "/practices/transactional/finance": "Banking & Finance",
+          "/practices/transactional/investment-funds": "Corporate",
+          "/practices/transactional/ip-technology-transactions": "Corporate"
+        }
+      },
+      "practice_include": [
+        "Corporate",
+        "M&A",
+        "Private Equity",
+        "Capital Markets",
+        "Banking & Finance"
+      ]
+    },
+    {
+      "slug": "gibsondunn",
+      "name": "Gibson, Dunn & Crutcher",
+      "homepage": "https://www.gibsondunn.com",
+      "partners_url": "https://www.gibsondunn.com/?wpgb-ajax=refresh",
+      "adapter": "gibson_dunn",
+      "options": {
+        "offices": [
+          "Los Angeles",
+          "New York",
+          "Washington, D.C.",
+          "San Francisco",
+          "Palo Alto",
+          "Orange County",
+          "Denver",
+          "Dallas",
+          "Houston",
+          "London",
+          "Paris",
+          "Munich",
+          "Hong Kong",
+          "Beijing",
+          "Singapore",
+          "Century City",
+          "Dubai",
+          "Brussels"
+        ],
+        "practice_url": "https://www.gibsondunn.com/practice/mergers-and-acquisitions/",
+        "practice_filters": {
+          "M&A": "mergers-and-acquisitions",
+          "Private Equity": "private-equity",
+          "Corporate": "securities-regulation-and-corporate-governance"
+        },
+        "practice_minimums": {
+          "M&A": 165
+        }
+      },
+      "practice_include": [
+        "M&A",
+        "Corporate",
+        "Private Equity"
+      ]
+    },
+    {
+      "slug": "latham",
+      "name": "Latham & Watkins",
+      "homepage": "https://www.lw.com",
+      "partners_url": "https://www.lw.com/en/people",
+      "adapter": "latham",
+      "options": {
+        "offices": [
+          "New York",
+          "London",
+          "Los Angeles",
+          "Chicago",
+          "Washington, D.C.",
+          "San Francisco",
+          "Silicon Valley",
+          "Boston",
+          "Houston",
+          "San Diego",
+          "Orange County",
+          "Frankfurt",
+          "Munich",
+          "Hamburg",
+          "Brussels",
+          "Paris",
+          "Milan",
+          "Madrid",
+          "Dubai",
+          "Hong Kong",
+          "Singapore",
+          "Tokyo",
+          "Beijing",
+          "Seoul",
+          "Riyadh"
+        ],
+        "practice_url": "https://www.lw.com/en/practices/mergers-and-acquisitions",
+        "search_method": "POST",
+        "list_path": "results",
+        "fields": {
+          "source_id": "clickUri",
+          "profile_url": "clickUri",
+          "full_name": "raw.peopleformattedname",
+          "title": "raw.peopleemployeetitle",
+          "offices": "raw.peopleofficesstring"
+        },
+        "pagination": {
+          "offset_param": "firstResult",
+          "total": "totalCountFiltered",
+          "max_pages": 45
+        },
+        "practices": [
+          "Mergers & Acquisitions",
+          "Private Equity",
+          "Corporate Governance",
+          "Public Company Representation",
+          "Emerging Companies & Growth",
+          "Shareholder Activism & Takeover Defense"
+        ]
+      },
+      "practice_include": [
+        "M&A",
+        "Mergers & Acquisitions",
+        "Private Equity",
+        "Corporate",
+        "Public Company Representation",
+        "Emerging Companies & Growth",
+        "Shareholder Activism & Takeover Defense"
+      ]
+    },
+    {
+      "slug": "cravath",
+      "name": "Cravath, Swaine & Moore",
+      "homepage": "https://www.cravath.com",
+      "partners_url": "https://www.cravath.com/_site/search",
+      "adapter": "json_api",
+      "options": {
+        "offices": [
+          "New York",
+          "London",
+          "Washington, D.C."
+        ],
+        "practice_url": "https://www.cravath.com/practices/practices/corporate/index.html",
+        "list_path": "hits.5499.hits",
+        "fields": {
+          "source_id": "_id",
+          "full_name": "name",
+          "title": "content_data.position.name",
+          "offices": "content_data.offices_info-office_information-office[].name",
+          "practices": "content_data.practices[].name",
+          "profile_url": "url"
+        },
+        "pagination": {
+          "offset_param": "f",
+          "total": "hits.5499.total",
+          "max_pages": 60
+        },
+        "queries": [
+          {
+            "practice": "Corporate",
+            "params": {
+              "v": "attorney",
+              "pr": "3275",
+              "po": "5499",
+              "s": 20
+            },
+            "row_practice": "Corporate"
+          },
+          {
+            "practice": "Mergers and Acquisitions",
+            "params": {
+              "v": "attorney",
+              "pr": "3308",
+              "po": "5499",
+              "s": 20
+            },
+            "row_practice": "Mergers and Acquisitions"
+          }
+        ]
+      },
+      "practice_include": [
+        "Corporate",
+        "Mergers and Acquisitions",
+        "M&A"
+      ]
+    },
+    {
+      "slug": "milbank",
+      "name": "Milbank",
+      "homepage": "https://www.milbank.com",
+      "partners_url": "https://www.milbank.com/en/professionals/index.html",
+      "adapter": "milbank",
+      "options": {
+        "offices": [
+          "New York",
+          "London",
+          "Frankfurt",
+          "Munich",
+          "Los Angeles",
+          "Washington, D.C.",
+          "São Paulo",
+          "Singapore",
+          "Tokyo",
+          "Hong Kong",
+          "Beijing",
+          "Seoul",
+          "Abu Dhabi"
+        ],
+        "practice_url": "https://www.milbank.com/en/practices/areas/corporate/index.html",
+        "practice_filters": {
+          "Corporate": "282",
+          "M&A": "306",
+          "M&A Germany": "42642",
+          "M&A and Control Contests": "825"
+        }
+      },
+      "practice_include": [
+        "Corporate",
+        "M&A"
+      ]
+    },
+    {
+      "slug": "sullcrom",
+      "name": "Sullivan & Cromwell",
+      "homepage": "https://www.sullcrom.com",
+      "partners_url": "https://searchg2.crownpeak.net/sullivancromwell-sullcrom-live/select/",
+      "adapter": "json_api",
+      "options": {
+        "offices": [
+          "New York",
+          "Washington, D.C.",
+          "Los Angeles",
+          "Palo Alto",
+          "London",
+          "Paris",
+          "Frankfurt",
+          "Brussels",
+          "Hong Kong",
+          "Beijing",
+          "Tokyo",
+          "Melbourne",
+          "Sydney"
+        ],
+        "practice_url": "https://www.sullcrom.com/Practices/General-Practice/",
+        "list_path": "response.docs",
+        "fields": {
+          "source_id": "id",
+          "full_name": "title",
+          "title": "custom_s_proftype",
+          "offices": "custom_s_office_title",
+          "profile_url": "custom_s_url"
+        },
+        "pagination": {
+          "offset_param": "start",
+          "total": "response.numFound",
+          "max_pages": 40
+        },
+        "queries": [
+          {
+            "practice": "Corporate",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69631",
+                "custom_i_type:25257"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69631
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "Corporate",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69631",
+                "custom_i_type:4397574"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69631
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "Corporate",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69631",
+                "custom_i_type:25267"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69631
+            },
+            "require_partner_titles": true,
+            "title_override": "Senior Chair and Partner"
+          },
+          {
+            "practice": "Corporate",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69631",
+                "custom_i_type:25271"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69631
+            },
+            "require_partner_titles": true,
+            "title_override": "Co-Chair and Partner"
+          },
+          {
+            "practice": "M&A",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69620",
+                "custom_i_type:25257"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69620
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "M&A",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69620",
+                "custom_i_type:4397574"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69620
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "M&A",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69620",
+                "custom_i_type:25267"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69620
+            },
+            "require_partner_titles": true,
+            "title_override": "Senior Chair and Partner"
+          },
+          {
+            "practice": "M&A",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69620",
+                "custom_i_type:25271"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69620
+            },
+            "require_partner_titles": true,
+            "title_override": "Co-Chair and Partner"
+          },
+          {
+            "practice": "M&A Financial Services",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69675",
+                "custom_i_type:25257"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69675
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "M&A Financial Services",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69675",
+                "custom_i_type:4397574"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69675
+            },
+            "require_partner_titles": true
+          },
+          {
+            "practice": "M&A Financial Services",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69675",
+                "custom_i_type:25267"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69675
+            },
+            "require_partner_titles": true,
+            "title_override": "Senior Chair and Partner"
+          },
+          {
+            "practice": "M&A Financial Services",
+            "params": {
+              "q": "*:*",
+              "wt": "json",
+              "rows": 25,
+              "fl": "id,title,custom_s_proftype,custom_s_office_title,custom_s_url,custom_is_practices,custom_i_type",
+              "fq": [
+                "custom_s_type:Lawyer",
+                "custom_is_practices:69675",
+                "custom_i_type:25271"
+              ],
+              "sort": "custom_s_lastname asc,id asc"
+            },
+            "row_contains": {
+              "custom_is_practices": 69675
+            },
+            "require_partner_titles": true,
+            "title_override": "Co-Chair and Partner"
+          }
+        ]
+      },
+      "practice_include": [
+        "Corporate",
+        "M&A"
+      ]
+    },
+    {
+      "slug": "paulhastings",
+      "name": "Paul Hastings",
+      "homepage": "https://www.paulhastings.com",
+      "partners_url": "https://www.paulhastings.com/professionals",
+      "adapter": "html_list",
+      "profile_pattern": "/professionals/[A-Za-z0-9%_-]+",
+      "options": {
+        "offices": [
+          "New York",
+          "Los Angeles",
+          "Washington, D.C.",
+          "Chicago",
+          "San Francisco",
+          "Palo Alto",
+          "Houston",
+          "Atlanta",
+          "San Diego",
+          "London",
+          "Paris",
+          "Frankfurt",
+          "Brussels",
+          "Hong Kong",
+          "Beijing",
+          "Shanghai",
+          "Tokyo",
+          "Seoul",
+          "Singapore"
+        ],
+        "practice_url": "https://www.paulhastings.com/practices/mergers-and-acquisitions",
+        "coverage_gap": "Robots policy is unavailable or disallows direct collection with this client."
+      }
+    },
+    {
+      "slug": "skadden",
+      "name": "Skadden, Arps, Slate, Meagher & Flom",
+      "homepage": "https://www.skadden.com",
+      "partners_url": "https://www.skadden.com/api/sitecore/professionals/search",
+      "adapter": "json_api",
+      "options": {
+        "offices": [
+          "New York",
+          "Chicago",
+          "Washington, D.C.",
+          "Boston",
+          "Los Angeles",
+          "San Francisco",
+          "Palo Alto",
+          "Wilmington",
+          "Houston",
+          "London",
+          "Frankfurt",
+          "Munich",
+          "Brussels",
+          "Paris",
+          "Moscow",
+          "Hong Kong",
+          "Beijing",
+          "Shanghai",
+          "Tokyo",
+          "Singapore",
+          "Sydney",
+          "São Paulo",
+          "Toronto"
+        ],
+        "practice_url": "https://www.skadden.com/capabilities/practices/corporate",
+        "list_path": "SearchResults",
+        "fields": {
+          "source_id": "ID",
+          "full_name": "Name",
+          "title": "Level",
+          "offices": "PrimaryOffice.Name",
+          "secondary_offices": "SecondaryOffice.Name",
+          "profile_url": "Url"
+        },
+        "exclude_if_true": [
+          "IsRetiredPartner",
+          "IsDeceased"
+        ],
+        "pagination": {
+          "offset_param": "skip",
+          "total": "ResultCount",
+          "has_more": "HasMoreResults",
+          "max_pages": 60
+        },
+        "queries": [
+          {
+            "practice": "Corporate",
+            "params": {
+              "practice": "8551cacf-412c-4b5f-bfb4-000000037644",
+              "position": "64063c2e-9576-4f66-91fa-166f4bede9b8",
+              "hassearched": "true"
+            },
+            "expect": {
+              "SearchFilters.PracticeFilter.SelectedValue.ID": "8551cacf-412c-4b5f-bfb4-000000037644",
+              "SearchFilters.PositionFilter.SelectedValue.ID": "64063c2e-9576-4f66-91fa-166f4bede9b8"
+            }
+          },
+          {
+            "practice": "Corporate",
+            "params": {
+              "practice": "8551cacf-412c-4b5f-bfb4-000000037644",
+              "position": "bdd10afa-0684-4d5c-8a48-557bcb43508a",
+              "hassearched": "true"
+            },
+            "expect": {
+              "SearchFilters.PracticeFilter.SelectedValue.ID": "8551cacf-412c-4b5f-bfb4-000000037644",
+              "SearchFilters.PositionFilter.SelectedValue.ID": "bdd10afa-0684-4d5c-8a48-557bcb43508a"
+            }
+          },
+          {
+            "practice": "Mergers and Acquisitions",
+            "params": {
+              "practice": "8551cacf-412c-4b5f-bfb4-000000037583",
+              "position": "64063c2e-9576-4f66-91fa-166f4bede9b8",
+              "hassearched": "true"
+            },
+            "expect": {
+              "SearchFilters.PracticeFilter.SelectedValue.ID": "8551cacf-412c-4b5f-bfb4-000000037583",
+              "SearchFilters.PositionFilter.SelectedValue.ID": "64063c2e-9576-4f66-91fa-166f4bede9b8"
+            }
+          },
+          {
+            "practice": "Mergers and Acquisitions",
+            "params": {
+              "practice": "8551cacf-412c-4b5f-bfb4-000000037583",
+              "position": "bdd10afa-0684-4d5c-8a48-557bcb43508a",
+              "hassearched": "true"
+            },
+            "expect": {
+              "SearchFilters.PracticeFilter.SelectedValue.ID": "8551cacf-412c-4b5f-bfb4-000000037583",
+              "SearchFilters.PositionFilter.SelectedValue.ID": "bdd10afa-0684-4d5c-8a48-557bcb43508a"
+            }
+          }
+        ]
+      },
+      "practice_include": [
+        "Corporate",
+        "Mergers and Acquisitions",
+        "M&A"
+      ]
+    },
+    {
+      "slug": "kingspalding",
+      "name": "King & Spalding",
+      "homepage": "https://www.kslaw.com",
+      "partners_url": "https://www.kslaw.com/api/search",
+      "adapter": "json_api",
+      "options": {
+        "offices": [
+          "Atlanta",
+          "New York",
+          "Washington, D.C.",
+          "Houston",
+          "Austin",
+          "Chicago",
+          "Charlotte",
+          "Denver",
+          "Los Angeles",
+          "San Francisco",
+          "Silicon Valley",
+          "Miami",
+          "London",
+          "Frankfurt",
+          "Paris",
+          "Abu Dhabi",
+          "Riyadh",
+          "Dubai",
+          "Singapore",
+          "Tokyo"
+        ],
+        "practice_url": "https://www.kslaw.com/capabilities/mergers-and-acquisitions",
+        "search_method": "POST",
+        "list_path": "hits",
+        "fields": {
+          "source_id": "url",
+          "profile_url": "url",
+          "full_name": "metadata.PersonName",
+          "title": "metadata.BusinessTitle",
+          "offices": "metadata.OfficesJson[].Name"
+        },
+        "pagination": {
+          "offset_param": "Page",
+          "page_number": true,
+          "first_page": 1,
+          "position_echo": "page",
+          "total": "totalHits",
+          "max_pages": 60
+        },
+        "queries": [
+          {
+            "practice": "M&A",
+            "body": {
+              "SearchText": null,
+              "PageSize": 12,
+              "Kind": "people",
+              "Categories": [],
+              "SelectedFilters": {
+                "capability": [
+                  "Mergers & Acquisitions (M&A)"
+                ]
+              },
+              "Language": "en"
+            }
+          },
+          {
+            "practice": "Private Equity",
+            "body": {
+              "SearchText": null,
+              "PageSize": 12,
+              "Kind": "people",
+              "Categories": [],
+              "SelectedFilters": {
+                "capability": [
+                  "Private Equity"
+                ]
+              },
+              "Language": "en"
+            }
+          },
+          {
+            "practice": "Corporate",
+            "body": {
+              "SearchText": null,
+              "PageSize": 12,
+              "Kind": "people",
+              "Categories": [],
+              "SelectedFilters": {
+                "capability": [
+                  "Public Companies Advisory"
+                ]
+              },
+              "Language": "en"
+            }
+          }
+        ]
+      },
+      "practice_include": [
+        "M&A",
+        "Private Equity",
+        "Corporate"
+      ]
+    },
+    {
+      "slug": "weil",
+      "name": "Weil, Gotshal & Manges",
+      "homepage": "https://www.weil.com",
+      "partners_url": "https://www.weil.com/WeilPeopleListing/Execute",
+      "adapter": "weil",
+      "options": {
+        "offices": [
+          "New York",
+          "Washington, D.C.",
+          "Boston",
+          "Dallas",
+          "Houston",
+          "Miami",
+          "Silicon Valley",
+          "London",
+          "Frankfurt",
+          "Munich",
+          "Paris",
+          "Prague",
+          "Warsaw",
+          "Budapest",
+          "Beijing",
+          "Shanghai",
+          "Hong Kong",
+          "Singapore",
+          "Dubai"
+        ],
+        "practice_url": "https://www.weil.com/experience/departments/corporate",
+        "item_id": "{2186BD5B-A7D8-40E1-87CD-9246016A7816}",
+        "practice_filters": {
+          "M&A": "{2F2727CC-4E6C-443B-8777-5FE134DFDDB5}",
+          "Private Equity": "{C4F4F120-2CEF-4831-B05F-CE442ECB0789}",
+          "Corporate Governance": "{FA11214A-13CE-45CB-BF50-66CF8D66BE98}"
+        }
+      },
+      "practice_include": [
+        "Corporate",
+        "Private Equity",
+        "M&A"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "full_name": "Michael Bekker",
+    "title": "Senior Partner",
+    "practices": [
+      "Corporate",
+      "Corporate Governance"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "michael.bekker@paulweiss.example.invalid",
+    "phone": "+1 310 555 0199",
+    "profile_url": "https://paulweiss.example.invalid/people/michael-bekker"
+  },
+  {
+    "full_name": "Ethan Fairchild",
+    "title": "Partner",
+    "practices": [
+      "Securities"
+    ],
+    "offices": [
+      "Hong Kong"
+    ],
+    "email": "ethan.fairchild@paulweiss.example.invalid",
+    "phone": "+1 312 555 0172",
+    "profile_url": "https://paulweiss.example.invalid/people/ethan-fairchild"
+  },
+  {
+    "full_name": "Emily Okafor",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance",
+      "M&A"
+    ],
+    "offices": [
+      "Wilmington"
+    ],
+    "email": "emily.okafor@paulweiss.example.invalid",
+    "phone": "+1 212 555 0171",
+    "profile_url": "https://paulweiss.example.invalid/people/emily-okafor"
+  },
+  {
+    "full_name": "Katherine Novak",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets",
+      "Securities"
+    ],
+    "offices": [
+      "Hong Kong"
+    ],
+    "email": "katherine.novak@paulweiss.example.invalid",
+    "phone": "+1 415 555 0122",
+    "profile_url": "https://paulweiss.example.invalid/people/katherine-novak"
+  },
+  {
+    "full_name": "Thomas Okafor",
+    "title": "Managing Partner",
+    "practices": [
+      "Capital Markets"
+    ],
+    "offices": [
+      "Toronto"
+    ],
+    "email": "thomas.okafor@paulweiss.example.invalid",
+    "phone": "+1 415 555 0103",
+    "profile_url": "https://paulweiss.example.invalid/people/thomas-okafor"
+  },
+  {
+    "full_name": "Nadia Andersen",
+    "title": "Partner",
+    "practices": [
+      "Securities",
+      "Restructuring"
+    ],
+    "offices": [
+      "Beijing"
+    ],
+    "email": "nadia.andersen@paulweiss.example.invalid",
+    "phone": "+1 202 555 0130",
+    "profile_url": "https://paulweiss.example.invalid/people/nadia-andersen"
+  },
+  {
+    "full_name": "Benjamin Pemberton",
+    "title": "Partner",
+    "practices": [
+      "M&A"
+    ],
+    "offices": [
+      "Tokyo"
+    ],
+    "email": "benjamin.pemberton@paulweiss.example.invalid",
+    "phone": "+1 202 555 0156",
+    "profile_url": "https://paulweiss.example.invalid/people/benjamin-pemberton"
+  },
+  {
+    "full_name": "Robert Wexford",
+    "title": "Senior Partner",
+    "practices": [
+      "Securities"
+    ],
+    "offices": [
+      "Beijing"
+    ],
+    "email": "robert.wexford@paulweiss.example.invalid",
+    "phone": "+1 212 555 0136",
+    "profile_url": "https://paulweiss.example.invalid/people/robert-wexford"
+  },
+  {
+    "full_name": "Jonathan Radcliffe",
+    "title": "Of Counsel",
+    "practices": [
+      "Antitrust"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "jonathan.radcliffe@paulweiss.example.invalid",
+    "phone": "+1 212 555 0186",
+    "profile_url": "https://paulweiss.example.invalid/people/jonathan-radcliffe"
+  },
+  {
+    "full_name": "Marcus Ashford",
+    "title": "Partner",
+    "practices": [
+      "Litigation"
+    ],
+    "offices": [
+      "Wilmington"
+    ],
+    "email": "marcus.ashford@paulweiss.example.invalid",
+    "phone": "+1 202 555 0196",
+    "profile_url": "https://paulweiss.example.invalid/people/marcus-ashford"
+  },
+  {
+    "full_name": "Ingrid Quimby",
+    "title": "Counsel",
+    "practices": [
+      "Executive Compensation & Benefits"
+    ],
+    "offices": [
+      "San Francisco"
+    ],
+    "email": "ingrid.quimby@paulweiss.example.invalid",
+    "phone": "+1 310 555 0124",
+    "profile_url": "https://paulweiss.example.invalid/people/ingrid-quimby"
+  },
+  {
+    "full_name": "Emily Kowalski",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets",
+      "Restructuring"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "emily.kowalski@paulweiss.example.invalid",
+    "phone": "+1 310 555 0101",
+    "profile_url": "https://paulweiss.example.invalid/people/emily-kowalski"
+  }
+]

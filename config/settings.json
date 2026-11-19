@@ -1,0 +1,13 @@
+{
+  "user_agent": "PinpointRosterResearch/1.0 (+https://github.com/Nabeel-Rizwan)",
+  "respect_robots": true,
+  "min_delay_seconds": 1.5,
+  "timeout_seconds": 20,
+  "max_retries": 3,
+  "backoff_base_seconds": 2.0,
+  "follow_redirects": true,
+  "cache_ttl_seconds": 86400,
+  "ca_bundle": null,
+  "ssl_verify": true,
+  "max_profiles_total": 600
+}

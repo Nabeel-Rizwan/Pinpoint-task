@@ -1,0 +1,151 @@
+[
+  {
+    "full_name": "Ana Fairchild",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Miami"
+    ],
+    "email": "ana.fairchild@quinnemanuel.example.invalid",
+    "phone": "+1 312 555 0154",
+    "profile_url": "https://quinnemanuel.example.invalid/people/ana-fairchild"
+  },
+  {
+    "full_name": "Peter Fernandez",
+    "title": "Partner",
+    "practices": [
+      "Corporate",
+      "Securities"
+    ],
+    "offices": [
+      "Seattle"
+    ],
+    "email": "peter.fernandez@quinnemanuel.example.invalid",
+    "phone": "+1 310 555 0191",
+    "profile_url": "https://quinnemanuel.example.invalid/people/peter-fernandez"
+  },
+  {
+    "full_name": "Marcus Blackwood",
+    "title": "Partner",
+    "practices": [
+      "Private Equity",
+      "Capital Markets"
+    ],
+    "offices": [
+      "Miami"
+    ],
+    "email": "marcus.blackwood@quinnemanuel.example.invalid",
+    "phone": "+1 312 555 0147",
+    "profile_url": "https://quinnemanuel.example.invalid/people/marcus-blackwood"
+  },
+  {
+    "full_name": "Rachel Whitfield",
+    "title": "Managing Partner",
+    "practices": [
+      "Corporate Governance",
+      "Corporate"
+    ],
+    "offices": [
+      "Houston"
+    ],
+    "email": "rachel.whitfield@quinnemanuel.example.invalid",
+    "phone": "+1 310 555 0142",
+    "profile_url": "https://quinnemanuel.example.invalid/people/rachel-whitfield"
+  },
+  {
+    "full_name": "Priya Kensington",
+    "title": "Partner",
+    "practices": [
+      "Banking & Finance"
+    ],
+    "offices": [
+      "San Francisco"
+    ],
+    "email": "priya.kensington@quinnemanuel.example.invalid",
+    "phone": "+1 415 555 0169",
+    "profile_url": "https://quinnemanuel.example.invalid/people/priya-kensington"
+  },
+  {
+    "full_name": "Christopher Langford",
+    "title": "Partner",
+    "practices": [
+      "Corporate",
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Los Angeles"
+    ],
+    "email": "christopher.langford@quinnemanuel.example.invalid",
+    "phone": "+1 310 555 0164",
+    "profile_url": "https://quinnemanuel.example.invalid/people/christopher-langford"
+  },
+  {
+    "full_name": "Benjamin Ashworth",
+    "title": "Managing Partner",
+    "practices": [
+      "Private Equity",
+      "Banking & Finance"
+    ],
+    "offices": [
+      "Houston"
+    ],
+    "email": "benjamin.ashworth@quinnemanuel.example.invalid",
+    "phone": "+1 312 555 0157",
+    "profile_url": "https://quinnemanuel.example.invalid/people/benjamin-ashworth"
+  },
+  {
+    "full_name": "David Petrov",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets",
+      "Private Equity"
+    ],
+    "offices": [
+      "Los Angeles"
+    ],
+    "email": "david.petrov@quinnemanuel.example.invalid",
+    "phone": "+1 415 555 0130",
+    "profile_url": "https://quinnemanuel.example.invalid/people/david-petrov"
+  },
+  {
+    "full_name": "Sophia Sharma",
+    "title": "Partner",
+    "practices": [
+      "Tax"
+    ],
+    "offices": [
+      "Chicago"
+    ],
+    "email": "sophia.sharma@quinnemanuel.example.invalid",
+    "phone": "+1 212 555 0112",
+    "profile_url": "https://quinnemanuel.example.invalid/people/sophia-sharma"
+  },
+  {
+    "full_name": "Matthew Barrow",
+    "title": "Partner",
+    "practices": [
+      "Antitrust"
+    ],
+    "offices": [
+      "Seattle"
+    ],
+    "email": "matthew.barrow@quinnemanuel.example.invalid",
+    "phone": "+1 212 555 0117",
+    "profile_url": "https://quinnemanuel.example.invalid/people/matthew-barrow"
+  },
+  {
+    "full_name": "Nadia Merriweather",
+    "title": "Partner",
+    "practices": [
+      "Executive Compensation & Benefits"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "nadia.merriweather@quinnemanuel.example.invalid",
+    "phone": "+1 212 555 0126",
+    "profile_url": "https://quinnemanuel.example.invalid/people/nadia-merriweather"
+  }
+]

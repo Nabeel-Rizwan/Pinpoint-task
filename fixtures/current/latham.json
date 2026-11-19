@@ -1,0 +1,134 @@
+[
+  {
+    "full_name": "Yuki Cohen",
+    "title": "Partner",
+    "practices": [
+      "Corporate"
+    ],
+    "offices": [
+      "Silicon Valley"
+    ],
+    "email": "yuki.cohen@latham.example.invalid",
+    "phone": "+1 212 555 0118",
+    "profile_url": "https://latham.example.invalid/people/yuki-cohen"
+  },
+  {
+    "full_name": "Charlotte Vance",
+    "title": "Partner",
+    "practices": [
+      "Securities"
+    ],
+    "offices": [
+      "Paris"
+    ],
+    "email": "charlotte.vance@latham.example.invalid",
+    "phone": "+1 202 555 0169",
+    "profile_url": "https://latham.example.invalid/people/charlotte-vance"
+  },
+  {
+    "full_name": "Patrick Andersen",
+    "title": "Partner",
+    "practices": [
+      "Banking & Finance"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "patrick.andersen@latham.example.invalid",
+    "phone": "+1 310 555 0145",
+    "profile_url": "https://latham.example.invalid/people/patrick-andersen"
+  },
+  {
+    "full_name": "Ingrid Silva",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Dubai"
+    ],
+    "email": "ingrid.silva@latham.example.invalid",
+    "phone": "+1 202 555 0149",
+    "profile_url": "https://latham.example.invalid/people/ingrid-silva"
+  },
+  {
+    "full_name": "Andrew Wexford",
+    "title": "Managing Partner",
+    "practices": [
+      "Corporate",
+      "M&A"
+    ],
+    "offices": [
+      "Hamburg"
+    ],
+    "email": "andrew.wexford@latham.example.invalid",
+    "phone": "+1 202 555 0199",
+    "profile_url": "https://latham.example.invalid/people/andrew-wexford"
+  },
+  {
+    "full_name": "Sophia Petrov",
+    "title": "Managing Partner",
+    "practices": [
+      "Corporate Governance",
+      "M&A"
+    ],
+    "offices": [
+      "Riyadh"
+    ],
+    "email": "sophia.petrov@latham.example.invalid",
+    "phone": "+1 310 555 0128",
+    "profile_url": "https://latham.example.invalid/people/sophia-petrov"
+  },
+  {
+    "full_name": "Nicholas Blackwood",
+    "title": "Partner",
+    "practices": [
+      "Corporate"
+    ],
+    "offices": [
+      "Tokyo"
+    ],
+    "email": "nicholas.blackwood@latham.example.invalid",
+    "phone": "+1 415 555 0116",
+    "profile_url": "https://latham.example.invalid/people/nicholas-blackwood"
+  },
+  {
+    "full_name": "Laura Merriweather",
+    "title": "Of Counsel",
+    "practices": [
+      "Antitrust"
+    ],
+    "offices": [
+      "Seoul"
+    ],
+    "email": "laura.merriweather@latham.example.invalid",
+    "phone": "+1 310 555 0162",
+    "profile_url": "https://latham.example.invalid/people/laura-merriweather"
+  },
+  {
+    "full_name": "Alexander Rossi",
+    "title": "Partner",
+    "practices": [
+      "White Collar Defense"
+    ],
+    "offices": [
+      "Dubai"
+    ],
+    "email": "alexander.rossi@latham.example.invalid",
+    "phone": "+1 202 555 0180",
+    "profile_url": "https://latham.example.invalid/people/alexander-rossi"
+  },
+  {
+    "full_name": "Charlotte Fernandez",
+    "title": "Special Counsel",
+    "practices": [
+      "Intellectual Property"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "charlotte.fernandez@latham.example.invalid",
+    "phone": "+1 212 555 0137",
+    "profile_url": "https://latham.example.invalid/people/charlotte-fernandez"
+  }
+]

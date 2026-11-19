@@ -1,0 +1,150 @@
+[
+  {
+    "full_name": "Michael Thornton",
+    "title": "Managing Partner",
+    "practices": [
+      "Corporate"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "michael.thornton@davispolk.example.invalid",
+    "phone": "+1 310 555 0171",
+    "profile_url": "https://davispolk.example.invalid/people/michael-thornton"
+  },
+  {
+    "full_name": "Nadia Rossi",
+    "title": "Partner",
+    "practices": [
+      "Corporate",
+      "Private Equity"
+    ],
+    "offices": [
+      "Madrid"
+    ],
+    "email": "nadia.rossi@davispolk.example.invalid",
+    "phone": "+1 212 555 0111",
+    "profile_url": "https://davispolk.example.invalid/people/nadia-rossi"
+  },
+  {
+    "full_name": "Andrew Rahman",
+    "title": "Partner",
+    "practices": [
+      "Private Equity",
+      "Corporate"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "andrew.rahman@davispolk.example.invalid",
+    "phone": "+1 415 555 0112",
+    "profile_url": "https://davispolk.example.invalid/people/andrew-rahman"
+  },
+  {
+    "full_name": "Hannah Bekker",
+    "title": "Senior Partner",
+    "practices": [
+      "Private Equity",
+      "Corporate"
+    ],
+    "offices": [
+      "Madrid"
+    ],
+    "email": "hannah.bekker@davispolk.example.invalid",
+    "phone": "+1 312 555 0158",
+    "profile_url": "https://davispolk.example.invalid/people/hannah-bekker"
+  },
+  {
+    "full_name": "Marcus Vance",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets"
+    ],
+    "offices": [
+      "Hong Kong"
+    ],
+    "email": "marcus.vance@davispolk.example.invalid",
+    "phone": "+1 312 555 0113",
+    "profile_url": "https://davispolk.example.invalid/people/marcus-vance"
+  },
+  {
+    "full_name": "Yuki Wexford",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "yuki.wexford@davispolk.example.invalid",
+    "phone": "+1 415 555 0199",
+    "profile_url": "https://davispolk.example.invalid/people/yuki-wexford"
+  },
+  {
+    "full_name": "Alexander Langford",
+    "title": "Partner",
+    "practices": [
+      "Securities",
+      "Banking & Finance"
+    ],
+    "offices": [
+      "Menlo Park"
+    ],
+    "email": "alexander.langford@davispolk.example.invalid",
+    "phone": "+1 310 555 0151",
+    "profile_url": "https://davispolk.example.invalid/people/alexander-langford"
+  },
+  {
+    "full_name": "Matthew Petrov",
+    "title": "Partner",
+    "practices": [
+      "Environmental"
+    ],
+    "offices": [
+      "Hong Kong"
+    ],
+    "email": "matthew.petrov@davispolk.example.invalid",
+    "phone": "+1 310 555 0181",
+    "profile_url": "https://davispolk.example.invalid/people/matthew-petrov"
+  },
+  {
+    "full_name": "Laura Kowalski",
+    "title": "Associate",
+    "practices": [
+      "Tax"
+    ],
+    "offices": [
+      "Northern California"
+    ],
+    "email": "laura.kowalski@davispolk.example.invalid",
+    "phone": "+1 310 555 0149",
+    "profile_url": "https://davispolk.example.invalid/people/laura-kowalski"
+  },
+  {
+    "full_name": "Nicholas Rossi",
+    "title": "Associate",
+    "practices": [
+      "Environmental"
+    ],
+    "offices": [
+      "Madrid"
+    ],
+    "email": "nicholas.rossi@davispolk.example.invalid",
+    "phone": "+1 202 555 0109",
+    "profile_url": "https://davispolk.example.invalid/people/nicholas-rossi"
+  },
+  {
+    "full_name": "Matthew Novak",
+    "title": "Partner",
+    "practices": [
+      "Restructuring",
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "matthew.novak@davispolk.example.invalid",
+    "phone": "+1 415 555 0174",
+    "profile_url": "https://davispolk.example.invalid/people/matthew-novak"
+  }
+]

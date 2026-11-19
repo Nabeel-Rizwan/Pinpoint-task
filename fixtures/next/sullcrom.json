@@ -1,0 +1,161 @@
+[
+  {
+    "full_name": "Priya Radcliffe",
+    "title": "Managing Partner",
+    "practices": [
+      "Banking & Finance",
+      "Securities"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "priya.radcliffe@sullcrom.example.invalid",
+    "phone": "+1 415 555 0180",
+    "profile_url": "https://sullcrom.example.invalid/people/priya-radcliffe"
+  },
+  {
+    "full_name": "Laura Hollingsworth",
+    "title": "Senior Partner",
+    "practices": [
+      "Banking & Finance"
+    ],
+    "offices": [
+      "Hong Kong"
+    ],
+    "email": "laura.hollingsworth@sullcrom.example.invalid",
+    "phone": "+1 415 555 0131",
+    "profile_url": "https://sullcrom.example.invalid/people/laura-hollingsworth"
+  },
+  {
+    "full_name": "Hannah Quimby",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance",
+      "Securities",
+      "M&A"
+    ],
+    "offices": [
+      "Paris"
+    ],
+    "email": "hannah.quimby@sullcrom.example.invalid",
+    "phone": "+1 202 555 0109",
+    "profile_url": "https://sullcrom.example.invalid/people/hannah-quimby"
+  },
+  {
+    "full_name": "Ethan Mancini",
+    "title": "Partner",
+    "practices": [
+      "Restructuring"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "ethan.mancini@sullcrom.example.invalid",
+    "phone": "+1 312 555 0176",
+    "profile_url": "https://sullcrom.example.invalid/people/ethan-mancini"
+  },
+  {
+    "full_name": "Jonathan Mancini",
+    "title": "Partner",
+    "practices": [
+      "M&A"
+    ],
+    "offices": [
+      "Paris"
+    ],
+    "email": "jonathan.mancini@sullcrom.example.invalid",
+    "phone": "+1 312 555 0172",
+    "profile_url": "https://sullcrom.example.invalid/people/jonathan-mancini"
+  },
+  {
+    "full_name": "Rachel Sinclair",
+    "title": "Partner",
+    "practices": [
+      "Corporate"
+    ],
+    "offices": [
+      "Frankfurt"
+    ],
+    "email": "rachel.sinclair@sullcrom.example.invalid",
+    "phone": "+1 310 555 0128",
+    "profile_url": "https://sullcrom.example.invalid/people/rachel-sinclair"
+  },
+  {
+    "full_name": "Emily Silva",
+    "title": "Partner",
+    "practices": [
+      "M&A"
+    ],
+    "offices": [
+      "Palo Alto"
+    ],
+    "email": "emily.silva@sullcrom.example.invalid",
+    "phone": "+1 212 555 0187",
+    "profile_url": "https://sullcrom.example.invalid/people/emily-silva"
+  },
+  {
+    "full_name": "Nadia Kensington",
+    "title": "Managing Partner",
+    "practices": [
+      "Banking & Finance"
+    ],
+    "offices": [
+      "Brussels"
+    ],
+    "email": "nadia.kensington@sullcrom.example.invalid",
+    "phone": "+1 202 555 0136",
+    "profile_url": "https://sullcrom.example.invalid/people/nadia-kensington"
+  },
+  {
+    "full_name": "Peter Rahman",
+    "title": "Of Counsel",
+    "practices": [
+      "Antitrust"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "peter.rahman@sullcrom.example.invalid",
+    "phone": "+1 212 555 0131",
+    "profile_url": "https://sullcrom.example.invalid/people/peter-rahman"
+  },
+  {
+    "full_name": "Mei Thornton",
+    "title": "Partner",
+    "practices": [
+      "Intellectual Property"
+    ],
+    "offices": [
+      "Beijing"
+    ],
+    "email": "mei.thornton@sullcrom.example.invalid",
+    "phone": "+1 202 555 0107",
+    "profile_url": "https://sullcrom.example.invalid/people/mei-thornton"
+  },
+  {
+    "full_name": "Andrew Petrov",
+    "title": "Partner",
+    "practices": [
+      "Litigation"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "andrew.petrov@sullcrom.example.invalid",
+    "phone": "+1 212 555 0192",
+    "profile_url": "https://sullcrom.example.invalid/people/andrew-petrov"
+  },
+  {
+    "full_name": "Andrew Hargrove",
+    "title": "Senior Partner",
+    "practices": [
+      "Securities"
+    ],
+    "offices": [
+      "Melbourne"
+    ],
+    "email": "andrew.hargrove@sullcrom.example.invalid",
+    "phone": "+1 212 555 0150",
+    "profile_url": "https://sullcrom.example.invalid/people/andrew-hargrove"
+  }
+]

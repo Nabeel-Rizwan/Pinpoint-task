@@ -1,0 +1,151 @@
+[
+  {
+    "full_name": "Zoe Bekker",
+    "title": "Managing Partner",
+    "practices": [
+      "M&A"
+    ],
+    "offices": [
+      "S\u00e3o Paulo"
+    ],
+    "email": "zoe.bekker@milbank.example.invalid",
+    "phone": "+1 312 555 0158",
+    "profile_url": "https://milbank.example.invalid/people/zoe-bekker"
+  },
+  {
+    "full_name": "Yuki Hollingsworth",
+    "title": "Partner",
+    "practices": [
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Frankfurt"
+    ],
+    "email": "yuki.hollingsworth@milbank.example.invalid",
+    "phone": "+1 310 555 0177",
+    "profile_url": "https://milbank.example.invalid/people/yuki-hollingsworth"
+  },
+  {
+    "full_name": "Mei Merriweather",
+    "title": "Partner",
+    "practices": [
+      "Capital Markets",
+      "M&A",
+      "Corporate"
+    ],
+    "offices": [
+      "Washington, D.C."
+    ],
+    "email": "mei.merriweather@milbank.example.invalid",
+    "phone": "+1 310 555 0190",
+    "profile_url": "https://milbank.example.invalid/people/mei-merriweather"
+  },
+  {
+    "full_name": "Adam Andersen",
+    "title": "Partner",
+    "practices": [
+      "Banking & Finance",
+      "Corporate"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "adam.andersen@milbank.example.invalid",
+    "phone": "+1 415 555 0164",
+    "profile_url": "https://milbank.example.invalid/people/adam-andersen"
+  },
+  {
+    "full_name": "Christopher Rossi",
+    "title": "Senior Partner",
+    "practices": [
+      "Capital Markets"
+    ],
+    "offices": [
+      "Singapore"
+    ],
+    "email": "christopher.rossi@milbank.example.invalid",
+    "phone": "+1 212 555 0165",
+    "profile_url": "https://milbank.example.invalid/people/christopher-rossi"
+  },
+  {
+    "full_name": "Daniel Ellsworth",
+    "title": "Partner",
+    "practices": [
+      "Banking & Finance",
+      "Corporate Governance"
+    ],
+    "offices": [
+      "Frankfurt"
+    ],
+    "email": "daniel.ellsworth@milbank.example.invalid",
+    "phone": "+1 202 555 0132",
+    "profile_url": "https://milbank.example.invalid/people/daniel-ellsworth"
+  },
+  {
+    "full_name": "Andrew Hollingsworth",
+    "title": "Senior Partner",
+    "practices": [
+      "Corporate Governance",
+      "Capital Markets"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "andrew.hollingsworth@milbank.example.invalid",
+    "phone": "+1 212 555 0138",
+    "profile_url": "https://milbank.example.invalid/people/andrew-hollingsworth"
+  },
+  {
+    "full_name": "Nicholas Cohen",
+    "title": "Special Counsel",
+    "practices": [
+      "White Collar Defense"
+    ],
+    "offices": [
+      "Tokyo"
+    ],
+    "email": "nicholas.cohen@milbank.example.invalid",
+    "phone": "+1 212 555 0141",
+    "profile_url": "https://milbank.example.invalid/people/nicholas-cohen"
+  },
+  {
+    "full_name": "Zoe Hargrove",
+    "title": "Of Counsel",
+    "practices": [
+      "Real Estate"
+    ],
+    "offices": [
+      "London"
+    ],
+    "email": "zoe.hargrove@milbank.example.invalid",
+    "phone": "+1 212 555 0123",
+    "profile_url": "https://milbank.example.invalid/people/zoe-hargrove"
+  },
+  {
+    "full_name": "Katherine Barrow",
+    "title": "Special Counsel",
+    "practices": [
+      "Litigation"
+    ],
+    "offices": [
+      "New York"
+    ],
+    "email": "katherine.barrow@milbank.example.invalid",
+    "phone": "+1 202 555 0117",
+    "profile_url": "https://milbank.example.invalid/people/katherine-barrow"
+  },
+  {
+    "full_name": "Katherine Bekker",
+    "title": "Partner",
+    "practices": [
+      "Private Equity",
+      "Capital Markets"
+    ],
+    "offices": [
+      "S\u00e3o Paulo"
+    ],
+    "email": "katherine.bekker@milbank.example.invalid",
+    "phone": "+1 312 555 0118",
+    "profile_url": "https://milbank.example.invalid/people/katherine-bekker"
+  }
+]
