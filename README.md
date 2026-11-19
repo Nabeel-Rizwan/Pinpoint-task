@@ -150,7 +150,46 @@ For 50 firms I would keep the same adapter and publication model, give each sour
 
 Approximately four hours including the additional source verification.
 
-## Use of AI
+## Integration of AI (Future Work)
 
-- AI can be integrated like a chatbot which could understand human intent and can fetch data accordingly and provide details naturally to the user. This helps the user save time and get data they need by explaining it to the chatbot.
+- AI can be integrated like a chatbot which could understand human intent and can fetch data accordingly and provide details naturally to the user. This helps the user save time and get data they need with the chatbot explaining it.
 
+## Testing
+61 tests across 11 modules, run with python3 -m unittest discover -v.
+
+Fetching / polieteness (test_http.py, 7)
+
+- robots-disallow blocks a fetch; unreachable robots blocks the page
+- per-host spacing enforced; repeat fetches served from cache
+- transient errors retried then succeed; a legacy (<3.14) robots parser refuses to start live crawling; an expired cache entry can't turn an outage into a "success"
+
+Normalisation & identity (test_normalize.py, 7)
+
+- name_key stable across formatting; person_key namespaced per firm
+- partner titles kept; non-partner/retired/former excluded
+- practice canonicalisation + corporate/M&A filtering; practices inferred from text; office abbreviations
+
+Change detection (test_change.py, 3) — the core product feature
+
+- added/removed; all field-level changes (title, office, practice, profile, contact); identical rosters -> no events
+
+Run health (test_health.py, 6)
+
+- first sighting healthy; live→fixture degraded; fixture→live is a rebaseline, not degradation
+- coverage collapse flagged but small changes aren't; degraded runs hold the prior roster instead of reading as mass attrition
+
+Adapters (test_adapters.py, 6 + test_sitemap.py, 6)
+
+- HTML list extraction, dedupe, nav ignored, retired qualifier preserved
+- fixture provenance; Davis Polk current-title/all-offices and rejecting incomplete results; generic json_api mapping
+- sitemap: profile URLs only, max_profiles cap, follows index pages w/ query strings + dedupes; Paul Weiss labeled office/practice sections, exec title requires explicit partner status
+
+Pipeline & publication (test_pipeline.py, 6 + test_publication.py, 6)
+
+- first run filters + reports adds; second run detects changes; removals marked; full snapshot recorded; idempotent rerun -> no changes; same-name duplicates get stable suffixes
+- failed/incomplete run never publishes a sample/empty verified roster; interrupted publication rolls back every write; targeted refresh keeps the global roster + prior firm health; namesake identity continuity; reviewed manifest checks counts + preserves source date
+
+Storage (test_storage.py, 5) — roundtrip preserves first_seen; mark_removed; snapshot roster; change-log record + filter; list_persons filters Surfaces (test_report.py, 2 + test_server.py, 5)
+
+- report shell/exports have no leftover template tokens; data.json scrubs unsafe profile URLs
+- API: meta counts/facets, partners paging + facets, changes filter by type/scope, person drill-down with history, unknown endpoint/person -> 404
